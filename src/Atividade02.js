@@ -1,4 +1,4 @@
-import Letreiro  from './Letreiro';
+import GenderCounter from './GenderCounter';
 
 import {Link} from "react-router-dom";
 
@@ -6,10 +6,10 @@ export default function Atividade02() {
     return (
         <>
         <h1>Atividade 02</h1>
-        <Letreiro />
+        <GenderCounter />
 
         <br />
-        <Link to="/">retornar a pagina inicial</Link>
+        <Link to="/">Retornar para pagina inicial</Link>
         </>
     );
 }

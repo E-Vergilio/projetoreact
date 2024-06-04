@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link} from 'react-router-dom';
 
+
 const Home =() =>{
   return (
     <div>
@@ -8,15 +9,18 @@ const Home =() =>{
         <nav>
             <ul>
                 <li>
-                    <Link to="/Atividade01">Atividade 1</Link>
-                    </li>
-                <li>
-                <Link to="/Atividade02">Atividade 2</Link>
+                    <Link to="/Atividade01">Atividade 01</Link>
                 </li>
                 <li>
-                <Link to="/Atividade03">Atividade 3</Link>
+                <Link to="/Atividade02">Atividade 02</Link>
                 </li>
-                </ul>
+                <li>
+                <Link to="/Atividade03">Atividade 03</Link>
+                </li>
+                <li>
+                <Link to="/Atividade04">Atividade 04</Link>
+                </li>
+            </ul>
                 
         </nav>
     </div>

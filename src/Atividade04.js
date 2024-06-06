@@ -18,10 +18,11 @@ export default function Atividade04() {
         <>
         <h1>Atividade 04</h1>
         <Toolbar/>
+        <Galeria2/>
         <Formulario1/>
         <Formulario2/>
         <Formulario3/>
-        <Galeria2/>
+       
         <Lista1/>
         <Lista2/>
         <Lista3/>

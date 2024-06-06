@@ -20,6 +20,10 @@ const Home =() =>{
                 <li>
                 <Link to="/Atividade04">Atividade 04</Link>
                 </li>
+                <li>
+                <Link to="/Atividade05">Atividade 05</Link>
+                </li>
+                
             </ul>
                 
         </nav>

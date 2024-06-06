@@ -1,9 +1,23 @@
-import Minhasrotas from "./Minhasrotas";
+import Avatar from './Avatar.js';
 
-function App() {
+function Card({ children }) {
   return (
-    <Minhasrotas/>
+    <div className="card">
+      {children}
+    </div>
   );
 }
 
-export default App;
+export default function Perfil() {
+  return (
+    <Card>
+      <Avatar
+        size={100}
+        person={{ 
+          name: 'Katsuko Saruhashi',
+          imageId: 'YfeOqp2'
+        }}
+      />
+    </Card>
+  );
+}
